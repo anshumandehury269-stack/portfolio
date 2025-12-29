@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient( 90deg,rgba(32, 32, 32, 0.979),rgb(136, 161, 175));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#header{
+    background: linear-gradient(90deg ,rgb(136,161,175),rgb(136,161,175));
+    position:sticky;
+    top: 0;
+    height: 60px;
+    
+}
+#nav , ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    color: red;
+    text-decoration: none;
+    backdrop-filter: blur(20px);
+    
+
+}
+ul{
+    margin-top: 20px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#img1{
+    display: flex;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 20px black;
+    background-size: cover;
+    box-sizing: border-box;
+    border: 15px;
+    justify-content: center;
+    justify-self: center;
+    justify-self: center;
+    margin: 10px;
+    
+
+}
+
+#bio{
+   
+    text-align: center;
+    color: rgb(207, 194, 194);
+}
+.div{
+
+    background-color:rgb(rgb(18, 1, 255));
+    padding: 10px;
+    height: 35vh;
+    margin: 30px;
+    border-radius: 30px;
+    box-shadow: 0px 1px 20px black;
+    color: white;
+
+}
+.div:hover{
+    background: rgb(114, 127, 129);
+    box-shadow: 0px 1px 20px rgb(211, 226, 233);
+}
+footer{
+    background: linear-gradient(90deg ,rgb(0, 0, 0),rgba(249, 250, 244, 0.723));
+    text-align: center;
+    
+}
